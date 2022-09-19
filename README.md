@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 int main()
 {
@@ -17,13 +16,10 @@ int main()
         for (int i = 0;i < 10; i++) {
             if (o[i] > mx){
                 mx = o[i];
-
         }
-
     }
  cout << "naj to: " << mx;
     }
-
     if (x==2) {
         //while (y<10){
             for (int i = 0;i < 10; i++) {
@@ -38,12 +34,9 @@ int main()
             }
     //}
     for (int i = 0;i < 10; i++) {
-
     if (tab[i] > mx){
         mx=tab[i];
-
     }
-
     }
     cout << "naj to: " << mx;
     }
